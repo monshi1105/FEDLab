@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">alphanumeric strings</p>
+    <script>
+        // Function to check letters and numbers
+    function alphanumeric(inputtxt)
+    {
+             var letterNumber = /^[0-9a-zA-Z]+$/;
+        if((inputtxt.match(letterNumber))) 
+        {
+            return true;
+        }
+        else
+        { 
+            alert("message"); 
+            return false; 
+        }
+    }
+  
+     document.write(alphanumeric("adiesjdklf39204"));   
+        
+    </script>
+</body>
+</html>
